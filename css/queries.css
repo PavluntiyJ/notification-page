@@ -1,0 +1,23 @@
+/* 800 px */
+@media (max-width: 50em){
+  html{
+    font-size: 50%;
+  }
+
+  .container{
+    max-width: 65rem;
+  }
+}
+
+
+
+/* 384 px */
+@media (max-width: 24em){
+  html{
+    font-size: 50%;
+  }
+
+  .container{
+    max-width: 40rem;
+  }
+}

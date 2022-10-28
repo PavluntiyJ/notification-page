@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-top: 10rem;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <script
+      src="https://kit.fontawesome.com/e844154187.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+  </head>
+  <body class="container">
+    <header class="notifications">
+      <span class="notif">Notifications</span>
+      <span class="notif-number">3</span>
+      <button class="mark-as-read">Mark all as read</button>
+    </header>
+    <main>
+      <ul class="notification-list">
+        <li class="notification unread-notification">
+          <figure class="not-icon">
+            <img
+              src="assets/images/avatar-mark-webber.webp"
+              alt="Mark Webber icon"
+            />
+          </figure>
+          <div class="not-content">
+            <p class="notification-text">
+              <span class="notification-name">Mark Webber</span>
+              <span class="notification-action">
+                reacted to your recent post
+              </span>
+              <span class="notification-achivement"
+                >My first tournament today! </span
+              ><i class="unread-icon fa-solid fa-circle"></i>
+            </p>
+            <span class="notification-time">1m ago</span>
+          </div>
+        </li>
+        <li class="notification unread-notification">
+          <figure class="not-icon">
+            <img
+              src="assets/images/avatar-angela-gray.webp"
+              alt="Angela icon"
+            />
+          </figure>
+          <div class="not-content">
+            <p class="notification-text">
+              <span class="notification-name">Angela Gray</span>
+              <span class="notification-action">followed you</span>
+              <i class="unread-icon fa-solid fa-circle"></i>
+            </p>
+            <span class="notification-time">5m ago</span>
+          </div>
+        </li>
+        <li class="notification unread-notification">
+          <figure class="not-icon">
+            <img
+              src="assets/images/avatar-jacob-thompson.webp"
+              alt="Jacob icon"
+            />
+          </figure>
+          <div class="not-content">
+            <p class="notification-text">
+              <span class="notification-name">Jacob Thompson</span>
+              <span class="notification-action"> has joined your group </span>
+              <span class="notification-club mg-left-sm">Chess Club</span>
+              <i class="unread-icon fa-solid fa-circle"></i>
+            </p>
+            <span class="notification-time">1 day ago</span>
+          </div>
+        </li>
+        <li class="notification">
+          <figure class="not-icon rizky-icon">
+            <img
+              src="assets/images/avatar-rizky-hasanuddin.webp"
+              alt="Rizky icon"
+            />
+          </figure>
+          <div class="Rizky">
+            <div class="not-content">
+              <p class="notification-text">
+                <span class="notification-name">Rizky Hasanuddin</span>
+                <span class="notification-action">
+                  sent you a private message
+                </span>
+              </p>
+              <span class="notification-time">5 days ago</span>
+            </div>
+            <div class="asdasd">
+              <p class="private-message">
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="notification">
+          <figure class="not-icon">
+            <img
+              src="assets/images/avatar-kimberly-smith.webp"
+              alt="Kimberly icon"
+            />
+          </figure>
+          <div class="not-content">
+            <p class="notification-text">
+              <span class="notification-name">Kimberly Smith</span>
+              <span class="notification-action">
+                commented on your picture
+              </span>
+            </p>
+            <span class="notification-time">1 week ago</span>
+          </div>
+          <figure class="chess-img">
+            <img src="assets/images/image-chess.webp" alt="chess img" />
+          </figure>
+        </li>
+        <li class="notification">
+          <figure class="not-icon">
+            <img
+              src="assets/images/avatar-nathan-peterson.webp"
+              alt="Nathan icon"
+            />
+          </figure>
+          <div class="not-content">
+            <p class="notification-text">
+              <span class="notification-name">Nathan Peterson</span>
+              <span class="notification-action">
+                reacted to your recent post
+              </span>
+              <span class="notification-achivement"
+                >5 end-game strategies to increase your win rate</span
+              >
+            </p>
+            <span class="notification-time">2 weeks ago</span>
+          </div>
+        </li>
+        <li class="notification">
+          <figure class="not-icon">
+            <img src="assets/images/avatar-anna-kim.webp" alt="Anna icon" />
+          </figure>
+          <div class="not-content">
+            <p class="notification-text">
+              <span class="notification-name">Anna Kim</span>
+              <span class="notification-action">left the group</span
+              ><span class="notification-club mg-left-sm">Chess Club</span>
+            </p>
+            <span class="notification-time">2 weeks ago</span>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Pavluntiy</a>.
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

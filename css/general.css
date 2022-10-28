@@ -1,0 +1,29 @@
+html{
+  font-size: 62.5%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.container{
+  max-width: 75rem;
+  margin: 3rem auto;
+}
+
+/* HELPER */
+
+.mg-left-sm{
+  margin-left: 0.5rem;
+}
+.mg-right-sm{
+  margin-right: 0.5rem;
+}

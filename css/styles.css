@@ -1,0 +1,143 @@
+/* Header */
+
+
+.notifications{
+  margin-bottom: 2.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.notif{
+  font-weight: 800;
+  font-size: 2.2rem;
+}
+
+.notif-number{
+background-color: hsl(219, 85%, 26%);
+color: #fff;
+padding: 0.4rem 1.2rem;
+border-radius: 1rem;
+margin-left: 1rem;
+font-weight: 500;
+}
+
+.mark-as-read{
+position: absolute;
+border: none;
+background-color: #fff;
+font-size: 1.6rem;
+right: 0;
+color: hsl(219, 14%, 63%);
+transition: all 0.2s;
+}
+
+
+.mark-as-read:hover, .mark-as-read:active{
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+/* Body */
+
+.notification-list{
+  list-style: none;
+}
+
+.notification{
+  margin-bottom: 1rem;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.notification-list img{
+  height: 5rem;
+  margin: auto 1.5rem;
+}
+
+.unread-icon{
+  font-size: 1rem;
+  color: hsl(1, 90%, 64%);
+  margin-left: 1rem;
+}
+
+.notification-name{
+  font-weight: 800;
+  transition: all 0.2s;
+}
+
+.notification-name:hover, .notification-name:active, .notification-achivement:hover, .notification-achivement:active, .notification-club:hover, .notification-club:active{
+  cursor: pointer;
+color: hsl(219, 85%, 26%);
+}
+
+.notification-action{
+  color: hsl(219, 14%, 63%);
+  margin: 0 0 0 0.5rem;
+}
+
+.notification-time{
+  color:hsl(219, 14%, 63%);
+  margin-top: 1rem;
+}
+
+.private-message{
+  margin-top: 2rem;
+  border: 1px solid hsl(219, 14%, 63%);
+  border-radius: 0.5rem;
+  padding: 3rem 2rem;
+  color: hsl(219, 14%, 63%);
+  transition: all 0.2s;
+}
+
+.private-message:hover, .private-message:active{
+  cursor: pointer;
+  background-color: hsl(210, 60%, 98%);
+}
+
+.notification-club{
+  color: hsl(219, 85%, 26%);
+}
+
+.notification-achivement{
+  color: hsl(219, 14%, 63%);
+  font-weight: 800;
+}
+
+.chess-img{
+  margin: 0 0 0 auto;
+}
+
+
+.unread-notification{
+background-color: hsl(210, 60%, 98%);
+border-radius: 1rem;
+}
+
+/* .unread-notification::after{
+  font-family: 'FontAwesome';
+  content: "\f111";
+  color: red;
+  font-size: 0.8rem;
+} */
+
+.rizky-icon{
+  align-self: flex-start;
+}
+
+.Rizky{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .main-content{
+display: flex;
+flex-wrap: wrap;
+} */
+
+
+/* .unread-notification::after{
+  background-image: ;
+} */
