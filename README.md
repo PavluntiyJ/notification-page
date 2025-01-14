@@ -4,6 +4,11 @@
 **Mark All as Read**: A button that marks all notifications as read, removing the red indicator and resetting the unread count to 0.<br/>
 **Hover Effect on Events**: Hovering over events triggers a pointer cursor.<br/>
 
+## Screenshot
+
+![image](https://github.com/user-attachments/assets/e18b6723-a1d8-4f30-b92f-f05b12be0029)
+
+
 ## Technologies Used
 **HTML**: For the structure of the page.<br/>
 **CSS**: For styling the page and adding hover effects.<br/>
